@@ -33,3 +33,4 @@ let rompiendo = "rompe"; //No utilizar palabras reservadas para variables
 
 console.log(_1num)
 console.log(rompiendo)
+

@@ -39,11 +39,12 @@ else:
 
 # Palabra reservada continue
 
-for i in range(6):
+""" for i in range(6):
     if i % 2 == 0:
         print(f"Valor: {i}")
 
 for i in range(6):
   if i % 2 != 0:
     continue                 # El continue anula los numeros que sean impares
-  print(f"Valor: {i}")
+  print(f"Valor: {i}")  """
+

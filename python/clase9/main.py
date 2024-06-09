@@ -5,6 +5,7 @@ def es_bisiesto(ano):
         return False
 
 opcion = 1
+
 while opcion == 1:
     ano = int(input("Ingrese el año: "))
     if es_bisiesto(ano):
