@@ -57,7 +57,7 @@ Profesor Ariel Betancud
 </sub>
 
 
-### CLASE 2 MIÉRCOLES 3 DE ABRIL DEL 2024
+# CLASE 2 MIÉRCOLES 3 DE ABRIL DEL 2024
  > Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador
 
 <sub>
@@ -75,7 +75,7 @@ rm vacio.txt #Borra el archivo seleccionado, ¡¡¡¡CUIDADO!!!!
 rm --help #Muestra como funciona el comando
 ```
 
- #### CREAR UN REPOSITORIO DE GIT Y HAZ TU PRIMER COMMIT
+ ## CREAR UN REPOSITORIO DE GIT Y HAZ TU PRIMER COMMIT
 
 ```sh
 cd tecnicatura
@@ -108,7 +108,7 @@ Revisar y ejecutar cada comando, hacerlo como practica
 Profesor Ariel Betancud
 </sub>
 
-##### CLASE 3 MIÉRCOLES 10 DE ABRIL DEL 2024
+# CLASE 3 MIÉRCOLES 10 DE ABRIL DEL 2024
 > Analizar cambios en los archivos de tu proyecto Git parte 3
 
 <sub>
