@@ -25,8 +25,6 @@ public class EjercicioWhile01 {
         }
                   
     }
-        
-     
         for(var contando = 0 ; contando < 7; contando++ ){
             if (contando % 2 !=0){
             continue; //Vamos a la siguiente iteración
@@ -34,8 +32,13 @@ public class EjercicioWhile01 {
         System.out.println("contando = " + contando);
                   
     }    
-     
-
+    
+       
+for(var contando = 0 ; contando < 7; contando++ ){
+    System.out.println("contando = " +  contando);
+  
+    
+}
         
         
 }
