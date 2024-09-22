@@ -8,6 +8,17 @@ public class Aritmetica {
     int a;
     int b;
     
+    //El contructor es un método especial
+    public Aritmetica(){ //Constructor 1 vacio
+        System.out.println("Se esta ejecutando este constructor número uno");
+    }
+   //Estamos viendo lo quen se llama sebrecarga de contructores
+    public Aritmetica(int a, int b){ //Constructor 2
+        this. a = a;
+        this. b = b;
+        System.out.println("Se esta ejecutando este contructor número dos");
+    }
+   
     //Método
     public void sumarNumero(){
         int resultado = a + b ;
