@@ -1,6 +1,6 @@
 //let persona3 = new Persona("Carla", "Ponce"); esto no se debe hacer: Persona is not defined
 
-class Persona{  //Clase padre
+class Persona {  //Clase padre
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
@@ -26,6 +26,18 @@ class Persona{  //Clase padre
   this._apellido = nuevoApellido;
   }
 
+nombreCompleto(){
+    return this._nombre+" "+this._apellido;
+}
+
+//Sobreescribiendo el método de la clase padre (Object)
+toString(){ //Regresa un STRING
+    //Se aplica el polimorfismo que significa = multiples formas en tiempo de ejecución
+    //El método que se ejecuta depende si es una referencia de tipo padre o hija
+    return this.nombreCompleto();
+}
+
+
 }
 
 class Empleado extends Persona{ //Clase hija
@@ -41,6 +53,11 @@ class Empleado extends Persona{ //Clase hija
     set departamento(departamento){
            this._departamento = departamento;
 
+    }
+
+    //Sobreescritura
+    nombreCompleto(){
+        return super.nombreCompleto()+", "+this._departamento;
     }
 
      
@@ -67,5 +84,9 @@ console.log(persona2.apellido); // Mostrará "González"
 
 let empleado1 = new Empleado("María", "Gimenez", "Sistemas");
 console.log(empleado1);
-console.log(empleado1.nombre);
+//console.log(empleado1.nombre);
+console.log(empleado1.nombreCompleto());
 
+//Object.prototype.toString Esta es la manera de acceder a atributos y métodos de manera dinámica
+console.log(empleado1.toString());
+console.log(persona1.toString());
