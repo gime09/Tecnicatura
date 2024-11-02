@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d23319d-3bab-4de2-b82e-d28dcc355acc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Leccion11_2sem/test_ordenes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persona.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sobrecarga_operadores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Leccion11_2sem/Orden.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion11_2sem/Orden.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2oHBT89GD1kMO9NW3ceeRnrjr4a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +36,7 @@
     "Python.sobrecarga_operadores.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/gimena/Tecnicatura/python/Leccion12_2sem"
+    "last_opened_file_path": "C:/Users/gimena/Tecnicatura/python/Leccion13_2sem"
   }
 }]]></component>
   <component name="RunManager" selected="Python.Persona">
