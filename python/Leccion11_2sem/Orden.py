@@ -33,3 +33,25 @@ if __name__ == "__main__":  # Solo visible si se ejecuta desde aquí
     orden1 = Orden(productos1)  # Crea la primera orden pasando la lista de productos
     print(orden1)
     print(f"Total de la orden: {orden1.calcular_total()}")
+    orden2 = Orden(productos1)
+    print(orden2)
+
+#Tarea: Modificar la orden2 ingresando nuevos productos con sus nombres y precios
+# Crear una nueva lista de productos y agregarla a la orden2
+
+# Creamos nuevos productos
+#producto3 = Producto("Zapatos", 200.00)
+#print(producto3)
+#producto4 = Producto("Sombrero", 50.00)
+#print(producto4)
+
+# Creamos una nueva lista de productos
+#nuevos_productos = [producto3, producto4]
+
+# Agregamos los nuevos productos a la orden2
+#for producto in nuevos_productos:
+  #  orden2.agregar_producto(producto)
+
+# Imprimimos la orden2 para verificar los cambios
+#print(orden2)
+#print(f"Total de la orden2 después de agregar nuevos productos: {orden2.calcular_total()}")
